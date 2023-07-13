@@ -1,0 +1,43 @@
+Pipe can only receive information if its not going into studin.
+
+ps -ef | grep = list all the process and find -----
+ps -ef | grep .....  | awk -F" " '{print $2}'  = To retrieve information about a process and extract a particular column.
+set -x = For debugging
+set -e = Exit the script when there is an error
+
+set -o pipefail = This is used with set -e.
+
+df -h = check the blocks
+free -g = check the memory
+nproc = number of processors
+
+To check for errors one goes into the logfile
+
+cat logfile | grep error = Gives the output
+
+The logs are always uploaded to a storage and not present on the VM
+
+The curl command is used to retrieve the information from the internet
+
+
+curl [link to the logfile in github] | grep ERROR
+
+curl -X GET [where you want to get it ]
+
+wget =  to save the information on the laptop
+
+sudo su - = sudo priviledges, run commands on behalf of the root . To switch to a different user.
+
+sudo su - find / -name [] = To find files
+
+Opening a file in the read-only mode:
+
+vim -r [file name]
+
+
+
+
+
+
+
+
