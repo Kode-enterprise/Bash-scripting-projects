@@ -1,2 +1,2 @@
 # Projects
-Projects on bash scripting, python, Kubernetes, Terraform and Docker.
+Projects on bash scripting.
